@@ -1,0 +1,52 @@
+<!DOCTYPE HTML>
+<html lang="PL">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> MPK </title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    
+    <h2> MPK pojazdy </h2>
+    
+    <div class="form">
+        <div class="text">
+            <input type="date" id="Data">
+            <input type="text" id="Linia" placeholder="Numer linii">
+            <input type="text" id="Numer" placeholder="Numer pojazdu"> 
+        </div>
+
+        <div class="options">
+            <label> <input type="radio" name="Pora" id="Rano"> Rano </label>    <!-- Pole "Pora" -->
+            <label> <input type="radio" name="Pora" id="Wieczor"> Wieczór </label> <br>
+            <label> <input type="radio" name="Typ" id="Autobus"> Autobus </label>  <!-- Pole "Typ" -->
+            <label> <input type="radio" name="Typ" id="Tramwaj"> Tramwaj </label> <br>
+            <label> <input type="checkbox" id="Kontroler"> Kontroler </label> <br><br>
+        </div>
+
+        <div class="buttons">
+            <button id="Send"> Wyślij </button>
+            <button id="Clear"> Wyczyść </button>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+
+</body>
+</html>
+
+<!--
+    Data
+    Pora
+    Typ
+    Linia
+    Numer
+    Kontroler
+-->
