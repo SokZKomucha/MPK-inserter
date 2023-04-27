@@ -6,7 +6,7 @@ Prosta stronka (działająca lokalnie) mająca na celu ułatwienie mi wprowadzan
 ## Co program robi? Detale 
 "Program" ma na celu ułatwienie mi wprowadzania danych o używanych przeze mnie pojazdach krakowskiej komunikacji miejskiej. 
 Dane obejmują datę przejazdu, numer linii, numer pojazdu, porę (Rano/Wieczór), typ pojazdu (Autobus/Tramwaj) oraz obecność kontrolera (bool).
-By zapisać dane w bazie danych, należy uruchomić serwer używając polecenia **node server.js** oraz mieć uruchomioną instancję MongoDB w tle.
+By zapisać dane w bazie danych, należy uruchomić serwer używając polecenia `node server.js` oraz mieć uruchomioną instancję MongoDB w tle.
 
 ## Jak łatwo go zepsuć?
 Tak.
