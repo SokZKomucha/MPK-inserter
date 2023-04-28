@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> MPK </title>
+    <title> MPK-inserter </title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,15 +14,14 @@
 </head>
 <body>
     
-    <h2> MPK pojazdy </h2>
-    
+    <h2><i> MPK-inserter </i></h2>
     <div class="form">
+
         <div class="text">
             <input type="date" id="Data">
             <input type="text" id="Linia" placeholder="Numer linii">
             <input type="text" id="Numer" placeholder="Numer pojazdu"> 
         </div>
-
         <div class="options">
             <label> <input type="radio" name="Pora" id="Rano"> Rano </label>    <!-- Pole "Pora" -->
             <label> <input type="radio" name="Pora" id="Wieczor"> Wieczór </label> <br>
@@ -30,13 +29,12 @@
             <label> <input type="radio" name="Typ" id="Tramwaj"> Tramwaj </label> <br>
             <label> <input type="checkbox" id="Kontroler"> Kontroler </label> <br><br>
         </div>
-
         <div class="buttons">
             <button id="Send"> Wyślij </button>
             <button id="Clear"> Wyczyść </button>
         </div>
-    </div>
 
+    </div>
     <script src="app.js"></script>
 
 </body>
