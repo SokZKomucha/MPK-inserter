@@ -22,3 +22,6 @@ Tak.
     - cors
 - MongoDB database server
 - Przeglądarka obsługująca JavaScript
+
+## Edycja, 2024-06-27
+W momencie pisania tego, owszem, jeszcze moje hobby mi się nie znudziło. Dalej za każdym razem sobie wprowadzam dane, jednakże już nie ze strony, a przez bota Discord. W roku szkolnym 23-24 nagromadziło mi się chyba z 525 przejazdów, co małą ilością nie jest. Nie wiem w jakim celu to piszę, ale pozdrawiam :3
